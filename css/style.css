@@ -128,5 +128,53 @@
   margin-right: 2%;
   margin-bottom: 2%;
 }
-
+/* GREEN SEZIONE 5 */
+#green{
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  background-color:#3fd2cc;
+  color: black;
+  position:relative;
+  padding: 5%;
+}
+#green::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.green-text{
+  width: 70vw;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translatex(-50%);
+  color: white;
+}
+.green-text::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.green-logo-container::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.green-logo-container{
+  width: 80vw;
+  background-color: yellow;
+  height: 50%;
+  position: absolute;
+  top: 40%;
+  left: 10vw;
+}
+.green-partner{
+  width: calc(100% / 4);
+  height: 50%;
+  float: left;
+  background-color: red;
+  border: 1px solid white;
+}
 /* FINE MAIN */
