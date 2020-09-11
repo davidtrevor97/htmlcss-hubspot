@@ -114,6 +114,32 @@
   display: table;
   clear:both;
 }
+.gray-h{
+  width: 84vw;
+  height: 30vh;
+  float:left;
+  background-color: yellow;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.gray-h::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.gray-crm{
+  width: 84vw;
+  height: 30vh;
+  float:left;
+  background-color: yellow;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.gray-crm::after{
+  content: "";
+  display: table;
+  clear:both;
+}
 .grays-container::after{
   content: "";
   display: table;
@@ -177,4 +203,138 @@
   background-color: red;
   border: 1px solid white;
 }
+/* WHITE SEZIONE 6 */
+#white{
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  background-color:yellow;
+  color: black;
+  position:relative;
+  padding: 5%;
+}
+#white::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.w-top-left{
+  width: calc(60vw/2);
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-left: 19%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.w-top-right{
+  width: calc(60vw/2);
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.w-top-right::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.w-bot-left{
+  width: calc(70vw/2);
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+.w-bot-right{
+  width: calc(70vw/2);
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.w-top-right-b{
+  width: calc(100% / 4);
+  height: 50%;
+  background-color: purple;
+  float: left;
+  border: 1px solid white;
+}
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer{
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  background-color:blue;
+  color: black;
+  position:relative;
+  padding: 5%;
+}
+footer::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.f-container{
+  width: 70vw;
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+}
+.f-container::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.f-container-b{
+  width: calc(100% / 4);
+  height: 100%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+.f-container-second{
+  width: 70vw;
+  height: 30vh;
+  float:left;
+  background-color: red;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+}
+.f-container-second::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.f-language{
+  width: 100%;
+  height: 35%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+.f-logo{
+  width: 50%;
+  height: 65%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+.f-policy{
+  width: 50%;
+  height: 65%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+/* FINE FOOTER */
