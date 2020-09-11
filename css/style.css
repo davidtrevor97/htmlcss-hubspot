@@ -381,7 +381,6 @@
 }
 .green-logo-container{
   width: 80vw;
-  background-color: yellow;
   height: 50%;
   position: absolute;
   top: 40%;
@@ -391,8 +390,36 @@
   width: calc(100% / 4);
   height: 50%;
   float: left;
-  background-color: red;
   border: 1px solid white;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+.green-partner h2{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.green-partner span{
+  font-size: 15px;
+}
+.green-partner{
+  border-top: none;
+}
+#green-a,
+#green-b{
+  border-left: none;
+}
+#green-b,
+#green-c,
+#green-d,
+#green-e{
+  border-bottom: none;
+}
+#green-f,
+#green-e{
+  border-right: none;
 }
 /* WHITE SEZIONE 6 */
 #white{
