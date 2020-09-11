@@ -22,15 +22,38 @@
   height: 100%;
   position: absolute;
   left: 5%;
-  background-color: yellow;
-  vertical-align: middle;
-  line-height: 30px;
+  color:#33475b;
+  padding: 20px;
+  padding-top: 6vh;
+  margin: auto;
 }
 .h-second{
   height: 100%;
   position: absolute;
   right:5%;
-  background-color: orange;
+  padding: 20px;
+}
+.h-second button:first-of-type{
+  padding: 10px;
+  background-color: white;
+  border: solid 3px tomato;
+  margin: 10px;
+  border-radius: 5px;
+  color: tomato;
+}
+.h-second button:first-of-type:hover{
+  color: rgba(255, 165, 0,0.6);
+  background-color: rgba(250,250,250)
+}
+.h-second button:last-child{
+  padding: 10px;
+  color: white;
+  background-color: tomato;
+  border: solid 3px tomato;
+  border-radius: 5px;
+}
+.h-second button:last-child:hover{
+  background-color: rgba(255, 99, 71,0.7)
 }
 /* FINE HEADER */
 
@@ -52,33 +75,18 @@
   height: 100%;
   position: absolute;
   left:5%;
-  background-color: yellow;
+  padding: 5vh;
 }
 .menu-second{
   height: 100%;
   position: absolute;
   right:5%;
-  background-color: yellow;
+  padding: 5vh;
+  color:#33475b;
 }
-
-/* DARK SEZIONE 2 */
-#dark{
-  width: 100vw;
-  height: 12vh;
-  float: left;
-  background-color:#33475b;
-  color: white;
-  position:relative;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-#dark::after{
-  content: "";
-  display: table;
-  clear:both;
-}
-#dark a{
-  color: white;
+.menu-second li{
+  padding-right: 10px;
+  display: inline-block;
 }
 /* PINK SEZIONE 3 */
 #pink{
@@ -93,11 +101,35 @@
   z-index: 0;
 }
 #pink div{
+  color:#33475b;
   z-index: 1;
-  width: 20vw;
+  width: 26vw;
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 5%;
+}
+#pink h2{
+  font-size: 40px;
+  margin-bottom: 5%;
+}
+#pink p{
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.pink-central button{
+  height: 10vh;
+  font-size: 15px;
+  padding-top: : 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background-color: tomato;
+  border: solid 3px tomato;
+  border-radius: 5px;
+}
+.pink-central button:hover{
+  background-color: rgba(255, 99, 71,0.7)
 }
 
 /* GRAY SEZIONE 4 */
